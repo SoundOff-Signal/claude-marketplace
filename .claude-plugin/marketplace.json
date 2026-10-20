@@ -1,0 +1,21 @@
+{
+  "name": "soundoff-approved",
+  "description": "SoundOff Signal approved Claude Code plugins. Each entry is pinned to a commit Cybersecurity reviewed.",
+  "owner": {
+    "name": "SoundOff Signal Cybersecurity",
+    "email": "bswainston@soundoffsignal.com"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "description": "Brainstorming, planning, TDD, debugging, and code review workflows. obra/superpowers v7.0.0, reviewed 2026-10-20.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git",
+        "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3"
+      },
+      "homepage": "https://github.com/obra/superpowers"
+    }
+  ]
+}
