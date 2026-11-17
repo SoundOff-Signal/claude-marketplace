@@ -24,10 +24,10 @@
       "source": "./plugins/soundoff-security"
     },
     {
-      "name": "soundoff-brand-templates-v10",
+      "name": "soundoff-brand-templates",
       "description": "SoundOff Signal branded Word, PDF, PowerPoint and Excel documents for every department. Applies brand identity, PY-DC classification marking and department-aware document IDs. Authored by SoundOff Signal, v2.0.0.",
       "category": "productivity",
-      "source": "./plugins/soundoff-brand-templates-v10"
+      "source": "./plugins/soundoff-brand-templates"
     }
   ]
 }
