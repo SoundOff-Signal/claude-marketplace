@@ -22,6 +22,12 @@
       "description": "Security consult for SoundOff teams. Advisory verdicts on designs, code, vendors, AI use cases and infrastructure changes. Advises, never approves. Authored by Cybersecurity, v0.1.0.",
       "category": "security",
       "source": "./plugins/soundoff-security"
+    },
+    {
+      "name": "soundoff-brand-templates-v10",
+      "description": "SoundOff Signal branded Word, PDF, PowerPoint and Excel documents for every department. Applies brand identity, PY-DC classification marking and department-aware document IDs. Authored by SoundOff Signal, v2.0.0.",
+      "category": "productivity",
+      "source": "./plugins/soundoff-brand-templates-v10"
     }
   ]
 }

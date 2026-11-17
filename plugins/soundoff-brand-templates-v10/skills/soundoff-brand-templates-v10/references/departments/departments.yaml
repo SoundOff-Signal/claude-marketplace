@@ -1,0 +1,54 @@
+# SoundOff Signal department registry
+#
+# One source for department names, document-ID codes, and department profiles.
+# The builders read this file to catch a document carrying another department's
+# code (for example a Marketing memo stamped SOS-ITCS-...). Claude reads it to
+# find the requester's code and profile.
+#
+#   code:     the segment in SOS-<code>-<type>-<subject> document IDs. Leave it
+#             empty until the department adopts SOS document IDs; documents for
+#             that department then carry no SOS ID (or the department's own
+#             numbering, if it has one).
+#   aliases:  other names people use for the department (matched case-insensitively).
+#   profile:  optional file in this folder with the department's own conventions
+#             (boilerplate, frameworks, terminology). Copy _template.md to add one.
+#
+# To register a department or a code: edit this file, then rebuild the fixtures
+# and run scripts/qa_check.py (see references/brand-reference.md).
+
+Cybersecurity:
+  code: ITCS
+  aliases: [Cyber Security, Information Security, InfoSec, IT Security]
+  profile: cybersecurity.md
+
+# Known departments that have not adopted SOS document IDs yet.
+Information Technology:
+  code:
+  aliases: [IT]
+Human Resources:
+  code:
+  aliases: [HR]
+Quality:
+  code:
+  aliases: [Quality Assurance]
+Marketing:
+  code:
+  aliases: []
+Sales:
+  code:
+  aliases: []
+Product Development:
+  code:
+  aliases: []
+Program Management:
+  code:
+  aliases: [Project Management]
+Innovation:
+  code:
+  aliases: []
+Continuous Improvement:
+  code:
+  aliases: []
+Executive Staff:
+  code:
+  aliases: [Executive, Leadership]
