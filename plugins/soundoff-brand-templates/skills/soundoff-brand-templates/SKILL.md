@@ -1,5 +1,5 @@
 ---
-name: soundoff-brand-templates-v10
+name: soundoff-brand-templates
 description: "Applies SoundOff Signal's brand (PMS 187 red, Oswald headlines, Arial body, logos, PY-DC classification marking) to Word, PDF, PowerPoint, and Excel files for any SoundOff department. Use it WHENEVER someone at SoundOff Signal wants a document, deck, or spreadsheet in one of those formats, even if they never say branded: policies, procedures, work instructions, reports, briefs, memos, proposals, one-pagers, leadership or customer decks, registers, trackers, scorecards, and KPI sheets for IT, Cybersecurity, HR, Quality, Marketing, Sales, Product Development, or leadership. It takes the author and department from the requester, keeps document IDs and version control correct, and handles images, Mermaid diagrams, callouts, memos, landscape pages, speaker notes, and live Excel formulas and status colors. Do NOT use for non-SoundOff documents."
 license: Oswald fonts OFL-licensed (assets/fonts/OSWALD-OFL.txt). Logos are SoundOff Signal property.
 ---

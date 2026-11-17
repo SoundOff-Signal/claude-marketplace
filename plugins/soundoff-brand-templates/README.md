@@ -4,9 +4,10 @@ Branded Word, PDF, PowerPoint, and Excel output for every SoundOff Signal
 department. Claude writes the content as Markdown; the bundled builders apply
 the brand, the PY-DC classification marking, and the document's identity.
 
-The plugin keeps its v1 name (`soundoff-brand-templates-v10`) so that
-installing it replaces v1.0 instead of running beside it. The version is in
-`.claude-plugin/plugin.json`.
+The plugin is named `soundoff-brand-templates`; the version is in
+`.claude-plugin/plugin.json`. It does not replace v1.0, which was named
+`soundoff-brand-templates-v10`. Remove v1.0 first so the two do not run
+side by side.
 
 ## What changed in 2.0
 
@@ -71,7 +72,7 @@ v1 Markdown still builds. Differences to expect:
 
 ## Registering a department
 
-1. Add or edit its entry in `skills/soundoff-brand-templates-v10/references/departments/departments.yaml`
+1. Add or edit its entry in `skills/soundoff-brand-templates/references/departments/departments.yaml`
    (`code`, `aliases`, optional `profile`).
 2. Optionally copy `_template.md` to `<department>.md` for its own boilerplate.
 3. Run the regression in `references/brand-reference.md`.
