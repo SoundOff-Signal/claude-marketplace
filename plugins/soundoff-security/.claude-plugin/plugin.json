@@ -1,6 +1,6 @@
 {
   "name": "soundoff-security",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A voice of security for SoundOff Signal teams. Reviews designs, code, vendors, AI use cases and infrastructure changes, then gives one verdict: Proceed, Proceed with conditions, or Escalate to Cybersecurity. Advisory only. It never approves.",
   "author": {
     "name": "SoundOff Signal Cybersecurity"
