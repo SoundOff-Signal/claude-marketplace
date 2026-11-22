@@ -19,7 +19,7 @@
     },
     {
       "name": "soundoff-security",
-      "description": "Security consult for SoundOff teams. Advisory verdicts on designs, code, vendors, AI use cases and infrastructure changes. Advises, never approves. Authored by Cybersecurity, v0.1.0.",
+      "description": "Security consult for SoundOff teams. Advisory verdicts on designs, code, vendors, AI use cases and infrastructure changes. Advises, never approves. Authored by Cybersecurity, v0.1.1.",
       "category": "security",
       "source": "./plugins/soundoff-security"
     },

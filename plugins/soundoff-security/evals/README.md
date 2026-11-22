@@ -45,4 +45,3 @@ A case passes only when the verdict, the triggers and every pass criterion match
 | `cases/voice-kiosk-design.md` | Empty, to be written |
 | `cases/graylog-mcp-approval.md` | Empty, to be written |
 | `cases/dev-registry-decryption-exclusions.md` | Empty, to be written |
-| `cases/project-sentry.md` | Empty, to be written |

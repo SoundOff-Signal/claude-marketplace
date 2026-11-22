@@ -74,7 +74,7 @@ When the verdict is Escalate to Cybersecurity:
 The plugin never opens the ticket for you. You can also open an ITHD ticket any time you
 disagree with a verdict or want a person to look.
 
-## What is in this version (0.1.0)
+## What is in this version (0.1.1)
 
 - Design and code rubric: fully drafted.
 - Vendor and SaaS, AI use case, and infrastructure change rubrics: starter questions only.
